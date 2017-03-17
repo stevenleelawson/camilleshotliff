@@ -24,6 +24,7 @@ body {
   background-color: #d25f1f;
   padding: 2rem;
   border: solid black .20rem;
+  border-radius: 100%;
 }
 .book {
   color: black;
