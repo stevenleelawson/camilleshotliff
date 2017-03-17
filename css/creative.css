@@ -45,6 +45,10 @@ body {
   height: 30vh;
   padding-bottom: 2rem;
 }
+#portfolio,
+#contact {
+  background-color: #0a000a;
+}
 hr {
   border-color: #2f0673;
   border-width: 3px;
