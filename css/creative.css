@@ -11,6 +11,14 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+.boxyman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100rem;
+  width: 100rem;
+}
 hr {
   border-color: #2f0673;
   border-width: 3px;
