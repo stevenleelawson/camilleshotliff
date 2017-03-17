@@ -28,6 +28,18 @@ body {
 .book {
   color: black;
 }
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fili {
+  width: 10%;
+}
+.camille {
+  border: 0.4rem solid #373739;
+}
 .lovitz {
   height: 30vh;
   padding-bottom: 2rem;
