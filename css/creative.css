@@ -16,13 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100rem;
+  height: 300rem;
   width: 100vw;
-}
-#contact {
-  width: 100vw;
-  height: 60vh;
-  color: ghost-white;
 }
 .textext {
   color: #2f0673;
