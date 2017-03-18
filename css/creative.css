@@ -8,16 +8,20 @@ body {
   height: 100%;
   width: 100%;
 }
+.tat {
+  height: 2rem;
+  width: 2rem;
+}
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
-.boxyman {
+.master {
+  height: 400vh;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 300rem;
-  width: 100vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
 }
 .artsy,
 .tatty {
