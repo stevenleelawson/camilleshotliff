@@ -5,12 +5,16 @@
  */
 html,
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+.contactbox {
+  display: flex;
+  flex-direction: column;
 }
 #tat {
-  height: 2rem;
-  width: 2rem;
+  height: 10rem;
+  width: 10rem;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -49,13 +53,9 @@ body {
 .camille {
   border: 0.4rem solid ghost-white;
 }
-.lovitz {
-  height: 30vh;
-  padding-bottom: 2rem;
-}
 #portfolio,
 #contact {
-  background-color: #0a000a;
+  background-color: #070707;
 }
 hr {
   border-color: #070707;

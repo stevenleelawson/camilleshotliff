@@ -4,13 +4,16 @@
 // Global Components
 html,
 body {
-    height: 100%;
-    width: 100%;
-
+    height: 100vh;
+    width: 100vw;
+}
+.contactbox {
+  display: flex;
+  flex-direction: column;
 }
 #tat {
-  height: 2rem;
-  width: 2rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 body {
@@ -69,13 +72,9 @@ body {
   border: .40rem solid ghost-white;
   // padding: 1rem;
 }
-.lovitz {
-  height: 30vh;
-  padding-bottom: 2rem;
 
-}
 #portfolio, #contact {
-  background-color: hsl(300, 100%, 2%);
+  background-color: rgb(7, 7, 7);
 }
 hr {
     border-color: @theme-primary;
