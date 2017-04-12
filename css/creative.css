@@ -17,6 +17,11 @@ body {
   height: 5rem;
   width: 5rem;
 }
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
