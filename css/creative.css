@@ -36,7 +36,8 @@ body {
 .butt {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  margin-top: 20rem;
 }
 .artsy,
 .tatty {
@@ -198,13 +199,9 @@ aside {
 header {
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  height: 150%;
   background-image: url('../img/hero2.png');
-  background-size: cover;
-  text-align: center;
-  color: white;
+  background-size: contain;
 }
 header .header-content {
   position: relative;
